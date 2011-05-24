@@ -36,7 +36,7 @@ module CodyRobbins
       #    end
       def find(name, filter_options = {})
         before_filter(filter_options) do
-          model = name.classifyize
+          model = name.to_class
           id = params[:id] || params[name]
           object = model.find_by_id(id)
 
