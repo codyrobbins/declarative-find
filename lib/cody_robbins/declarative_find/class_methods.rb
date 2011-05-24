@@ -13,6 +13,27 @@ module CodyRobbins
       #
       # @param name [Symbol, String] The name of the model to look up.
       # @param filter_options [Hash] Options to pass through to the underlying `before_filter`. For example, you could limit the lookup to a specific action by using the `:only` option.
+      #
+      # @example The following examples assume the request for the `delete` action has an `:id` or `:user` param passed to it with the ID of the user to delete.
+      #    class UserController < ApplicationController
+      #      find(:user)
+      #
+      #      def delete
+      #        @user.destroy
+      #      end
+      #    end
+      # @example Restricting the find to specific actions.
+      #    class UserController < ApplicationController
+      #      find(:user, :only => :delete)
+      #
+      #      def delete
+      #        @user.destroy
+      #      end
+      #
+      #      def something_else
+      #        render(:text => 'Something else.')
+      #      end
+      #    end
       def find(name, filter_options = {})
         before_filter(filter_options) do
           model = name.classifyize
