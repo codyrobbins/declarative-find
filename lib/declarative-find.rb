@@ -1,2 +1,2 @@
-require('cody_robbins/lookup_record/class_methods')
-require('cody_robbins/lookup_record/railtie')
+require('cody_robbins/declarative_find/class_methods')
+require('cody_robbins/declarative_find/railtie')

@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
-  s.name     = 'lookup-record'
+  s.name     = 'declarative-find'
   s.version  = '1.0'
   s.summary  = 'Find records for Rails controller actions declaratively.'
-  s.homepage = 'http://codyrobbins.com/software/lookup-record'
+  s.homepage = 'http://codyrobbins.com/software/declarative-find'
   s.author   = 'Cody Robbins'
   s.email    = 'cody@codyrobbins.com'
 
