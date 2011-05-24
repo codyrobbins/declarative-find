@@ -7,7 +7,7 @@ module CodyRobbins
       #
       # * You pass the name of the model to look up to the method.
       # * The key in `params` assumed to contain the ID of the record to find is either `:id` or, if `:id` is not present, then extrapolated from the model name. For example, if the model is `User` then this key would be `:user`. Preference is given to `:id` to prevent conflicts in situations such as edit actions, where a record is looked up but new values for its attributes are passed via a key in `params` sharing the name of the model. For example, if the model is `User` then `params[:user]` would contain the attributes for the user from the form, and `:id` would have to be used to specify the ID of the user in question.
-      # * The instance variable that the record is assigned to will be named according to the model—. For example
+      # * The instance variable that the record is assigned to will be named according to the model. For example, if the model is `User` then the instance variable will be `@user`.
       #
       # An 404 HTTP code will be returned and the corresponding error page rendered for non-existent records via the [`http-error` gem](http://codyrobbins.com/software/http-error).
       #
