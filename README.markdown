@@ -1,5 +1,5 @@
-Declarative Find for Rails
-=======================
+Declarative Find
+================
 
 This Rails plugin makes a `find` method available at the class level in `ApplicationController` which takes the name of an ActiveRecord model. Using this method creates a before filter which finds an ActiveRecord instance and assigns it to an appropriately named instance variable in the controller. The name of the model passed to `find` is used for both the key in `params` assumed to contain the ID of the record to find as well as the name of the instance variable to assign it to. An 404 HTTP code will be returned and the corresponding error page rendered for non-existent records via the [`http-error` gem](http://codyrobbins.com/software/http-error).
 
