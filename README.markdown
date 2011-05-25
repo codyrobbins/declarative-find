@@ -41,7 +41,7 @@ Colophon
 
 ### See also
 
-If you like this gem, you may also want to check out [Declarative Find](http://codyrobbins.com/software/declarative-find), [Create New](http://codyrobbins.com/software/create-new), and  [HTTP Error](http://codyrobbins.com/software/http-error).
+If you like this gem, you may also want to check out [Create New](http://codyrobbins.com/software/create-new), [Save Changes To](http://codyrobbins.com/software/save-changes-to), and [HTTP Error](http://codyrobbins.com/software/http-error).
 
 ### Tested with
 
