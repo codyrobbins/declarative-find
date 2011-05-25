@@ -39,6 +39,10 @@ The find can be restricted to specific actions the same way a typical before fil
 Colophon
 --------
 
+### See also
+
+If you like this gem, you may also want to check out [Declarative Find](http://codyrobbins.com/software/declarative-find), [Create New](http://codyrobbins.com/software/create-new), and  [HTTP Error](http://codyrobbins.com/software/http-error).
+
 ### Tested with
 
 * Rails 3.0.5 — 20 May 2011
@@ -55,4 +59,5 @@ To send patches, please fork on GitHub and submit a pull request.
 © 2011 [Cody Robbins](http://codyrobbins.com/). See LICENSE for details.
 
 * [Homepage](http://codyrobbins.com/software/declarative-find)
+* [My other gems](https://rubygems.org/profiles/50409)
 * [Follow me on Twitter](http://twitter.com/codyrobbins)
