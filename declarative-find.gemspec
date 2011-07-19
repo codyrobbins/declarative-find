@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name     = 'declarative-find'
-  s.version  = '1.0'
+  s.version  = '1.0.1'
   s.summary  = 'Find records for Rails controller actions declaratively.'
   s.homepage = 'http://codyrobbins.com/software/declarative-find'
   s.author   = 'Cody Robbins'
